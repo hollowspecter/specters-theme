@@ -1,0 +1,10 @@
+{
+	"author": "Vivien Baguio",
+	"email": "baguiov@posteo.net",
+	"website": "https://www.vivienbaguio.com/",
+	"version": "1.0",
+	"releaseDate": "2020-12-31",
+	"license": "ACSL",
+	"compatible": "3.x",
+	"notes": "Highly customized"
+}
