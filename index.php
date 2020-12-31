@@ -11,6 +11,11 @@
 	<?php echo Theme::plugins('siteBodyBegin') ?>
 </header>
 
+<!-- Navigation -->
+<nav>
+	<?php include(THEME_DIR_PHP.'navigation.php'); ?>
+</nav>
+
 <!-- Content -->
 <main>
 <?php
@@ -28,7 +33,7 @@
 
 <!-- Footer -->
 <footer>
-<!-- TODO put in the footer here -->
+	<?php include(THEME_DIR_PHP.'footer.php');  ?>
 </footer>
 	<!-- Load plugins with the hook siteBodyEnd -->
 	<?php Theme::plugins('siteBodyEnd'); ?>	
