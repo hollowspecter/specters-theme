@@ -11,6 +11,7 @@
 		<p>The user is watching a particular page</p>
 	<?php elseif ($WHERE_AM_I=='home'): ?>
 		<p>The user is watching the home page</p>
+		<?php include(THEME_DIR_PHP.'home.php'); ?>
 	<?php endif ?>
 
 	<!-- Load plugins with the hook siteBodyEnd -->
