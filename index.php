@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="<?php echo Theme::lang() ?>">
 <head>
-	<?php
-		echo Theme::metaTags('title');
-		echo Theme::metaTags('description');
-	?>
+	<?php include(THEME_DIR_PHP.'head.php'); ?>
+</head>
 <body>
 	<?php foreach ($content as $page): ?>
 	<h1><?php echo $page->title(); ?></h1>
