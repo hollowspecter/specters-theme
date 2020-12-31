@@ -10,7 +10,7 @@
 	<?php if ($WHERE_AM_I=='page'): ?>
 		<p>The user is watching a particular page</p>
 	<?php elseif ($WHERE_AM_I=='home'): ?>
-		<?php include(THEME_DIR_PHP.'home.php'); ?>
+		<p>The user is watching the home page</p>
 	<?php endif ?>
 
 	<!-- Load plugins with the hook siteBodyEnd -->
