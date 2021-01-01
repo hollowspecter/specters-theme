@@ -1,2 +1,2 @@
 <hr/>
-<p>Copyleft by Vivien Baguio 2020</p>
+<p>Copyleft &copy; 2020 by Vivien Baguio</p>

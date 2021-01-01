@@ -9,6 +9,9 @@
 <header>
 	<!-- Load Bludit Plugins: Site Body begin -->
 	<?php echo Theme::plugins('siteBodyBegin') ?>
+	<!-- Load Custom -->
+	<?php include(THEME_DIR_PHP.'util.php'); ?>
+	<?php include(THEME_DIR_PHP.'header.php'); ?>
 </header>
 
 <!-- Navigation -->
