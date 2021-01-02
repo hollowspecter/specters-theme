@@ -75,7 +75,7 @@
     font-family: 'ibmplex-r';
 }
 
-p {
+p, ul {
     font-size: 0.9rem;
 }
 
@@ -88,7 +88,10 @@ img {
 }
 
 .mainbody {
-    overflow: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left main";
 }
 
 a {
@@ -105,26 +108,31 @@ a:hover {
 
 /* Navigation Bar left */
 
-.nav {
-    float: left;
+.left {
+    grid-area: left;
+    position: fixed;
     top: 0;
     left: 0;
     width: 20%;
-    height: 100%;
-    position: fixed;
     max-width: 150px;
-    text-align: left;
-    overflow-y:auto;
+    height: 100%;
     border-right: 1px salmon solid;
 }
 
-.menu {
-    height: 80%;
+.header-l {
+    text-align: center;
+    padding: 0.3rem;
 }
 
-.header a {
+.header-l a {
     text-decoration: none;
     color: black;
+}
+
+.nav {
+    height: calc(100% - 11rem);
+    overflow-y: auto;
+    padding-left: 1rem;
 }
 
 .nav h3 {
@@ -137,6 +145,7 @@ a:hover {
     border-right: 1px salmon;
     align-content: center;
     text-align: center;
+    height: 100%;
 }
 
 .footer p {
@@ -146,7 +155,6 @@ a:hover {
 /* Main Content */
 
 .main {
-    float: left;
     margin-left: 150px;
     padding: 0px 20px 0px 20px;
     width: 80%;

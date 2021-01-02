@@ -11,14 +11,18 @@
 	<?php echo Theme::plugins('siteBodyBegin') ?>
 	<!-- Load Custom -->
 	<?php include(THEME_DIR_PHP.'util.php'); ?>
-	<?php include(THEME_DIR_PHP.'header.php'); ?>
 </header>
 
 <div class="mainbody">
 
 	<!-- Navigation -->
-	<div class="nav">
+	<div class="left">
+		<div class="header-l">
+			<?php include(THEME_DIR_PHP.'header.php'); ?>
+		</div>
+		<div class="nav">
 			<?php include(THEME_DIR_PHP.'navigation.php'); ?>
+		</div>
 		<div class="footer">
 			<?php include(THEME_DIR_PHP.'footer.php');  ?>
 		</div>
