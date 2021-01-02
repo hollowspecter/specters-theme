@@ -1,0 +1,144 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'ibmplex-r';
+    src: url('font/IBMPlexMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ibmplex-b';
+    src: url('font/IBMPlexMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ibmplex-i';
+    src: url('font/IBMPlexMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ibmplex-l';
+    src: url('font/IBMPlexMono-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ibmplex-t';
+    src: url('font/IBMPlexMono-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'spacegrotesk-r';
+    src: url('font/SpaceGrotesk-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spacegrotesk-b';
+    src: url('font/SpaceGrotesk-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spacegrotesk-l';
+    src: url('font/SpaceGrotesk-Light.woff2') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spacegrotesk-m';
+    src: url('font/SpaceGrotesk-Medium.woff2') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+} */
+
+
+/* inspo view-source:https://copiona.com/css/skeleton-boy.css */
+
+/* General CSS for everything */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'ibmplex-r';
+    
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'ibmplex-t', monospace;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    /* background-color: salmon; */
+}
+
+.mainbody {
+    overflow: auto;
+}
+
+/* Navigation Bar left */
+
+.nav {
+    box-sizing: content-box;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    max-width: 150px;
+    text-align: left;
+    overflow-y:auto;
+    border-right: 1px salmon solid;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav h3 {
+    text-align: center;
+    font-family: 'ibmplex-l';
+}
+
+/* Main Content */
+
+.main {
+    float: left;
+    margin-left: 150px;
+    padding: 0px 20px 0px 20px;
+    width: 80%;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .nav {
+        position:initial;
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+        margin-left: 0px;
+    }
+}

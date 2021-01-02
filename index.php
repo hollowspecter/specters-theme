@@ -14,30 +14,33 @@
 	<?php include(THEME_DIR_PHP.'header.php'); ?>
 </header>
 
-<!-- Navigation -->
-<nav>
-	<?php include(THEME_DIR_PHP.'navigation.php'); ?>
-</nav>
+<div class="mainbody">
 
-<!-- Content -->
-<main>
-<?php
-	// $WHERE_AM_I variable detects where the user is browsing
-	// "page" = looking at a particular page
-	// "home" = looking at the home page
-	
-	if ($WHERE_AM_I == 'page') {
-		include(THEME_DIR_PHP.'page.php');
-	} else {
-		include(THEME_DIR_PHP.'home.php');
-	}
-?>
-</main>
+	<!-- Navigation -->
+	<div class="nav">
+		<?php include(THEME_DIR_PHP.'navigation.php'); ?>
+	</div>
+
+	<!-- Content -->
+	<div class="main">
+		<?php
+			// $WHERE_AM_I variable detects where the user is browsing
+			// "page" = looking at a particular page
+			// "home" = looking at the home page
+			
+			if ($WHERE_AM_I == 'page') {
+				include(THEME_DIR_PHP.'page.php');
+			} else {
+				include(THEME_DIR_PHP.'home.php');
+			}
+		?>
+	</div>
+</div>
 
 <!-- Footer -->
-<footer>
+<div class="footer">
 	<?php include(THEME_DIR_PHP.'footer.php');  ?>
-</footer>
+</div>
 	<!-- Load plugins with the hook siteBodyEnd -->
 	<?php Theme::plugins('siteBodyEnd'); ?>	
 </body>
