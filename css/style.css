@@ -106,6 +106,12 @@ a:hover {
     background-color:salmon;
 }
 
+hr {
+    border-top: 2px dashed salmon;
+    border-bottom: 0px;
+    width: 100%;
+}
+
 /* Navigation Bar left */
 
 .left {
