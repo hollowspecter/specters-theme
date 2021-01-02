@@ -73,7 +73,6 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'ibmplex-r';
-    
 }
 
 p {
@@ -88,18 +87,25 @@ img {
     width: 100%;
 }
 
-body {
-    /* background-color: salmon; */
-}
-
 .mainbody {
     overflow: auto;
+}
+
+a {
+    font-family: 'ibmplex-i';
+    text-decoration: none;
+    color: rgb(255, 58, 36);
+}
+
+a:hover {
+    font-family: 'ibmplex-i';
+    color: black;
+    background-color:salmon;
 }
 
 /* Navigation Bar left */
 
 .nav {
-    box-sizing: content-box;
     float: left;
     top: 0;
     left: 0;
@@ -112,6 +118,10 @@ body {
     border-right: 1px salmon solid;
 }
 
+.menu {
+    height: 80%;
+}
+
 .header a {
     text-decoration: none;
     color: black;
@@ -120,6 +130,17 @@ body {
 .nav h3 {
     text-align: center;
     font-family: 'ibmplex-l';
+}
+
+.footer {
+    border-top: 1px salmon dashed;
+    border-right: 1px salmon;
+    align-content: center;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.7rem;
 }
 
 /* Main Content */
@@ -141,4 +162,22 @@ body {
         width: 100%;
         margin-left: 0px;
     }
+}
+
+/* Card View */
+.card-collection {
+    overflow:auto;
+}
+
+.card {
+    float: left;
+    padding-inline: 20px;
+}
+
+.card-img {
+    width: 15vw;
+    height: 15vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

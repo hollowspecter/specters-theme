@@ -18,7 +18,10 @@
 
 	<!-- Navigation -->
 	<div class="nav">
-		<?php include(THEME_DIR_PHP.'navigation.php'); ?>
+			<?php include(THEME_DIR_PHP.'navigation.php'); ?>
+		<div class="footer">
+			<?php include(THEME_DIR_PHP.'footer.php');  ?>
+		</div>
 	</div>
 
 	<!-- Content -->
@@ -37,11 +40,7 @@
 	</div>
 </div>
 
-<!-- Footer -->
-<div class="footer">
-	<?php include(THEME_DIR_PHP.'footer.php');  ?>
-</div>
-	<!-- Load plugins with the hook siteBodyEnd -->
-	<?php Theme::plugins('siteBodyEnd'); ?>	
+<!-- Load plugins with the hook siteBodyEnd -->
+<?php Theme::plugins('siteBodyEnd'); ?>	
 </body>
 </html>
