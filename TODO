@@ -7,7 +7,7 @@ Next up:
   ✔ log view @done(21-01-04 21:02)
   ✔ page for tagged @done(21-01-04 21:20)
   ✔ all used categories and all used tags in a page https://crlf.site/topics/ @done(21-01-04 21:20)
-  [ ] add icons for social media into the footer.
+  ✔ add icons for social media into the footer. @started(21-01-04 22:51) @done(21-01-04 22:51) @lasted(43s)
   [ ] mark in the navigation in which navigation point we currently are
   [ ] make a 404 page
   [ ] setup rss feed
@@ -15,7 +15,8 @@ Next up:
 Styling:
   [ ] style the list-log and list-log-description
   [ ] style the navigation bar buttons
+  [ ] what to do with the caption picture?
 
 Content:
-  [ ] add itch page to about
-  [ ] add rss feed to about
+  [ ] add itch page to about + icons bot?
+  [ ] add rss feed to about + icons bot

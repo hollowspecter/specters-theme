@@ -75,6 +75,7 @@
     font-family: 'ibmplex-r';
 }
 
+
 p, ul {
     font-size: 0.9rem;
 }
@@ -136,7 +137,7 @@ hr {
 }
 
 .nav {
-    height: calc(100% - 12rem);
+    height: calc(100% - 13rem);
     overflow-y: auto;
     padding-left: 1rem;
 }
@@ -149,6 +150,7 @@ hr {
 .footer {
     border-top: 1px salmon dashed;
     border-right: 1px salmon;
+    padding-top: 5px;
     align-content: center;
     text-align: center;
     height: 100%;
@@ -156,6 +158,17 @@ hr {
 
 .footer p {
     font-size: 0.7rem;
+    margin-top: 0;
+}
+
+.nav-link {
+	font-size: 0.8em;
+}
+
+img.nav-svg-icon {
+	width: 1rem;
+	height: 1rem;
+    padding-bottom: 2px;
 }
 
 /* Main Content */
