@@ -29,23 +29,17 @@
 <h2>Featured</h2>
 <div class="card-collection">
 	<?php foreach ($featureTag->pages() as $pageKey): 
-		$page = new Page($pageKey); ?>
-		<?php
-			// let's fetch the correct link
-			$link = $page->permaLink();
-			$target = "";
-			if ($page->custom(IS_EXTERNAL_LINK)) {
-				$link = $page->custom(EXTERNAL_LINK);
-				$target = "_blank";
-			}
-		?>
+		$page = new Page($pageKey);
+		$link = createPageLink($page);	
+	?>
 
 		<div class="card">
-			<a href="<?php echo $link; ?>" target="<?php echo $target?>">
+			<a href="<?php echo $link[0]; ?>" target="<?php echo $link[1] ?>">
 				<h3><?php echo $page->title(); ?></h3>
 				<div class="card-img" style=<?php echo "\"background-image: url('".$page->coverImage()."')\"" ?>></div>
 			</a>
 			<p><?php echo $page->description(); ?></p>
 		</div>
+
 	<?php endforeach; ?>
 </div>

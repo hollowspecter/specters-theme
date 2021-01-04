@@ -37,8 +37,10 @@
 			
 			if ($WHERE_AM_I == 'page') {
 				include(THEME_DIR_PHP.'page.php');
-			} else {
+			} elseif($WHERE_AM_I == 'home') {
 				include(THEME_DIR_PHP.'home.php');
+			} elseif($WHERE_AM_I == 'category') {
+				include(THEME_DIR_PHP.'category.php');
 			}
 		?>
 	</div>
