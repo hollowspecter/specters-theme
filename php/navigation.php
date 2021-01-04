@@ -3,6 +3,7 @@
 <a href=<?php echo'"'.$base.'category/gamejams"' ?>><p>❌ gamejams</p></a>
 <a href=<?php echo'"'.$base.'category/photos"' ?>><p>❌ photos</p></a>
 <a href=<?php echo'"'.$base.'category/about"' ?>><p>❌ about</p></a>
+<a href=<?php echo'"'.$base.'category/questionmark"' ?>><p>❌ ???</p></a>
 
 <!-- Static pages -->
 <?php foreach ($staticContent as $staticPage): ?>

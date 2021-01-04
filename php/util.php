@@ -22,7 +22,7 @@ error_reporting(E_ALL);
  * Utility functions
  */
 
-// returns an array with the link and link target
+// returns an array with the link and link target using the custom fields
 function createPageLink($page){
     $return = array($page->permalink(), "");
     if ($page->custom(IS_EXTERNAL_LINK)) {

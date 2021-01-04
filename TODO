@@ -2,12 +2,13 @@
 Next up:
   ✔ Navigation (plan) @started(21-01-03 19:11) @done(21-01-04 20:54) @lasted(1d1h43m2s)
   ✔ create different category templates for different categories @started(21-01-04 19:47) @done(21-01-04 20:53) @lasted(1h6m58s)
-  [ ] put in paginator
-  [ ] single page view
-  [ ] log view
+  ✔ put in paginator @done(21-01-04 21:02)
+  ✔ single page view @done(21-01-04 21:02)
+  ✔ log view @done(21-01-04 21:02)
+  ✔ page for tagged @done(21-01-04 21:20)
+  ✔ all used categories and all used tags in a page https://crlf.site/topics/ @done(21-01-04 21:20)
   [ ] add icons for social media into the footer.
   [ ] mark in the navigation in which navigation point we currently are
-  [ ] all used categories and all used tags in a page https://crlf.site/topics/ 
   [ ] make a 404 page
   [ ] setup rss feed
 
@@ -17,3 +18,4 @@ Styling:
 
 Content:
   [ ] add itch page to about
+  [ ] add rss feed to about

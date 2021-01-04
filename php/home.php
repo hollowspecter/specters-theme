@@ -1,3 +1,6 @@
+<!-- Load Bludit Plugins: Page Begin -->
+<?php Theme::plugins('pageBegin'); ?>
+
 <!-- Show all pages related to home (tagged with TAG_HOME) -->
 <?php
 	$items = getTags();
@@ -43,3 +46,6 @@
 
 	<?php endforeach; ?>
 </div>
+
+<!-- Load Bludit Plugins: Page End -->
+<?php Theme::plugins('pageEnd'); ?>

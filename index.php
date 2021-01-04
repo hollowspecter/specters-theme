@@ -35,12 +35,16 @@
 			// "page" = looking at a particular page
 			// "home" = looking at the home page
 			
-			if ($WHERE_AM_I == 'page') {
+			if ($url->slug() == 'questionmark') {
+				include(THEME_DIR_PHP.'questionmark.php');
+			}
+			elseif ($WHERE_AM_I == 'page') {
 				include(THEME_DIR_PHP.'page.php');
 			} elseif($WHERE_AM_I == 'home') {
 				include(THEME_DIR_PHP.'home.php');
-			} elseif($WHERE_AM_I == 'category') {
-				include(THEME_DIR_PHP.'category.php');
+			} elseif($WHERE_AM_I == 'category' ||
+					 $WHERE_AM_I == 'tag') {
+				include(THEME_DIR_PHP.'list.php');
 			}
 		?>
 	</div>
