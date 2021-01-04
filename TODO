@@ -1,5 +1,5 @@
 
-Next up:
+Done:
   ✔ Navigation (plan) @started(21-01-03 19:11) @done(21-01-04 20:54) @lasted(1d1h43m2s)
   ✔ create different category templates for different categories @started(21-01-04 19:47) @done(21-01-04 20:53) @lasted(1h6m58s)
   ✔ put in paginator @done(21-01-04 21:02)
@@ -8,7 +8,11 @@ Next up:
   ✔ page for tagged @done(21-01-04 21:20)
   ✔ all used categories and all used tags in a page https://crlf.site/topics/ @done(21-01-04 21:20)
   ✔ add icons for social media into the footer. @started(21-01-04 22:51) @done(21-01-04 22:51) @lasted(43s)
-  [ ] mark in the navigation in which navigation point we currently are
+
+Next up:
+  [ ] update theme on server
+  [ ] transfer content
+  [ ] make it accessible from phone (maybe like have a button at the top of the page for the menu and then go to the "navi" page that only shows the navigation)
   [ ] make a 404 page
   [ ] setup rss feed
 
@@ -16,6 +20,8 @@ Styling:
   [ ] style the list-log and list-log-description
   [ ] style the navigation bar buttons
   [ ] what to do with the caption picture?
+  [ ] mark in the navigation in which navigation point we currently are
+
 
 Content:
   [ ] add itch page to about + icons bot?
