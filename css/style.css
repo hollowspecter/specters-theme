@@ -182,9 +182,22 @@ article p {
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
-    .nav {
-        position:initial;
-        width: 100%;
+    .mainbody{
+        display: initial;
+    }
+    .left {
+        position: initial;
+        width: initial;
+        max-width: initial;
+        border-right: initial;
+    }
+    .header-l h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .nav p {
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
     .main {
         width: 100%;
