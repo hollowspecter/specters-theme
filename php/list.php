@@ -43,7 +43,7 @@ if ($WHERE_AM_I == 'category') {
         <div class="card">
             <a href="<?php echo $link[0]; ?>" target="<?php echo $link[1] ?>">
                 <h3><?php echo $page->title(); ?></h3>
-                <div class="card-img" style=<?php echo "\"background-image: url('".$page->coverImage()."')\"" ?>></div>
+                <div class="card-img" style=<?php echo "\"background-image: url('".$page->coverImage()."')\"" ?> title="<?php echo $page->custom(COVER_ALT); ?>"></div>
             </a>
             <p><?php echo $page->description(); ?></p>
         </div>
@@ -59,7 +59,7 @@ if ($WHERE_AM_I == 'category') {
     <!-- Default: Log Style -->
     <?php else: ?>
         <div class="list-log">
-            <a href=<?php echo '"'.$page->permalink().'"'; ?>><?php echo $page->title()?> (<?php echo $page->date(); ?>)</a>
+            <a href="<?php echo $link[0]; ?>"><?php echo $page->title()?> (<?php echo $page->date(); ?>)</a>
             <?php if($page->description()!=""): ?>
                 <p><?php echo '-> '.$page->description(); ?></p>
             <?php endif; ?>

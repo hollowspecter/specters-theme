@@ -8,7 +8,7 @@ bludit theme for my homepage
     - "log": lists posts + date + description in a vertical list
     - "card": lists posts in a card view (see for example on projects)
 
-### Mark context only as external links
+### Necessary custom fields
 
 - activate the custom fields
 - add this into the custom fields
@@ -24,6 +24,11 @@ bludit theme for my homepage
         "type": "string",
         "label": "External URL",
         "tip": "Write the external URL this page points to"
+    },
+    "coverAlt": {
+        "type": "string",
+        "label": "Alt for Cover Images",
+        "tip": "Put in alternative text for the images"
     }
 }
 ```

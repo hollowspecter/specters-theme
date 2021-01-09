@@ -10,8 +10,8 @@ Done:
   ✔ add icons for social media into the footer. @started(21-01-04 22:51) @done(21-01-04 22:51) @lasted(43s)
 
 Next up:
-  [ ] update theme on server
-  [ ] transfer content
+  ✔ update theme on server @done(21-01-09 13:26)
+  ✔ transfer content @done(21-01-09 13:26)
   [ ] make it accessible from phone (maybe like have a button at the top of the page for the menu and then go to the "navi" page that only shows the navigation)
   [ ] make a 404 page
   [ ] setup rss feed

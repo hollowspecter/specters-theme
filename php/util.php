@@ -8,6 +8,7 @@
 
 define ("IS_EXTERNAL_LINK", "isExternalLink");
 define ("EXTERNAL_LINK", "externalLink");
+define ("COVER_ALT", "coverAlt");
 
 // Tags
 define ("TAG_HOME", "home");
