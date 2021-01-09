@@ -84,10 +84,6 @@ h1,h2,h3,h4,h5 {
     font-family: 'ibmplex-t', monospace;
 }
 
-img {
-    width: 100%;
-}
-
 .mainbody {
     display: grid;
     grid-template-columns: auto auto;
