@@ -14,14 +14,14 @@ Next up:
   ✔ transfer content @done(21-01-09 13:26)
   ✔ make it accessible from phone (maybe like have a button at the top of the page for the menu and then go to the "navi" page that only shows the navigation) @done(21-01-09 21:49)
   ✔ make a 404 page @done(21-01-09 21:50)
-  [ ] setup rss feed
-  [ ] redirect the url to the new homepage!
+  ✔ setup rss feed @done(21-02-08 12:48)
+  ✔ redirect the url to the new homepage! @done(21-02-08 12:48)
 
 Content:
   ✔ add itch page to about + icons bot? @done(21-01-09 21:50)
   [ ] add rss feed to about + icons bot
-  [ ] add a photo entry
-  [ ] add the remaining projects
+  ✔ add a photo entry @done(21-02-08 12:48)
+  ✔ add the remaining projects @done(21-02-08 12:48)
 
 Styling (nice to have):
   [ ] style the list-log and list-log-description
