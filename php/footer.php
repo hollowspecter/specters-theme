@@ -9,6 +9,9 @@
 <a class="nav-link" href="https://hollowspecter.itch.io/" target="_blank">
     <img class="nav-svg-icon" src="<?php echo DOMAIN_THEME.'img/itch-dot-io.svg' ?>" alt="itch.io" />
 </a>
+<a class="nav-link" href="rss.xml" target="_blank">
+    <img class="nav-svg-icon" src="<?php echo DOMAIN_THEME.'img/rss.svg' ?>" alt="rss" />
+</a>
 
 <!-- Licenses -->
 <p>Copyright &copy; 2020 by <a href=<?php echo $base; ?>>Vivien Baguio</a>.<br>
