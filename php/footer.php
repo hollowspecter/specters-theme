@@ -1,2 +1,2 @@
 <hr/>
-<p>Copyleft by Vivien Baguio 2020</p>
+<p>Copyleft by Finley Baguio 2021</p>
