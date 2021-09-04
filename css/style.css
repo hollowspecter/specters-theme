@@ -1,0 +1,224 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'ibmplex-r';
+    src: url('font/IBMPlexMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ibmplex-b';
+    src: url('font/IBMPlexMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ibmplex-i';
+    src: url('font/IBMPlexMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ibmplex-l';
+    src: url('font/IBMPlexMono-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ibmplex-t';
+    src: url('font/IBMPlexMono-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'spacegrotesk-r';
+    src: url('font/SpaceGrotesk-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spacegrotesk-b';
+    src: url('font/SpaceGrotesk-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spacegrotesk-l';
+    src: url('font/SpaceGrotesk-Light.woff2') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spacegrotesk-m';
+    src: url('font/SpaceGrotesk-Medium.woff2') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+} */
+
+
+/* inspo view-source:https://copiona.com/css/skeleton-boy.css */
+
+/* General CSS for everything */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'ibmplex-r';
+}
+
+
+p, ul {
+    font-size: 0.9rem;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'ibmplex-t', monospace;
+}
+
+.mainbody {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left main";
+}
+
+a {
+    font-family: 'ibmplex-i';
+    text-decoration: none;
+    color: rgb(255, 58, 36);
+}
+
+a:hover {
+    font-family: 'ibmplex-i';
+    color: black;
+    background-color:salmon;
+}
+
+hr {
+    border-top: 2px dashed salmon;
+    border-bottom: 0px;
+    width: 100%;
+}
+
+/* Navigation Bar left */
+
+.left {
+    grid-area: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    max-width: 150px;
+    height: 100%;
+    border-right: 1px salmon solid;
+}
+
+.header-l {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.header-l a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    height: calc(100% - 13rem);
+    overflow-y: auto;
+    padding-left: 1rem;
+}
+
+.nav h3 {
+    text-align: center;
+    font-family: 'ibmplex-l';
+}
+
+.footer {
+    border-top: 1px salmon dashed;
+    border-right: 1px salmon;
+    padding-top: 5px;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.footer p {
+    font-size: 0.7rem;
+    margin-top: 0;
+}
+
+.nav-link {
+	font-size: 0.8em;
+}
+
+img.nav-svg-icon {
+	width: 1rem;
+	height: 1rem;
+    padding-bottom: 2px;
+}
+
+/* Main Content */
+
+.main {
+    margin-left: 150px;
+    padding: 0px 20px 0px 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+article p {
+    text-align: justify;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .mainbody{
+        display: initial;
+    }
+    .left {
+        position: initial;
+        width: initial;
+        max-width: initial;
+        border-right: initial;
+    }
+    .header-l h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .nav p {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .main {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+/* Card View */
+.card-collection {
+    overflow:auto;
+}
+
+.card {
+    float: left;
+    padding-inline: 20px;
+}
+
+.card-img {
+    width: 15vw;
+    height: 15vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

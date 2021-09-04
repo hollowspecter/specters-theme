@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+.mainbody {
+    overflow: auto;
+}
+
+.nav {
+    float: left;
+    width: 20%;
+    text-align: left;
+}

@@ -9,33 +9,48 @@
 <header>
 	<!-- Load Bludit Plugins: Site Body begin -->
 	<?php echo Theme::plugins('siteBodyBegin') ?>
+	<!-- Load Custom -->
+	<?php include(THEME_DIR_PHP.'util.php'); ?>
 </header>
 
-<!-- Navigation -->
-<nav>
-	<?php include(THEME_DIR_PHP.'navigation.php'); ?>
-</nav>
+<div class="mainbody">
 
-<!-- Content -->
-<main>
-<?php
-	// $WHERE_AM_I variable detects where the user is browsing
-	// "page" = looking at a particular page
-	// "home" = looking at the home page
-	
-	if ($WHERE_AM_I == 'page') {
-		include(THEME_DIR_PHP.'page.php');
-	} else {
-		include(THEME_DIR_PHP.'home.php');
-	}
-?>
-</main>
+	<!-- Navigation -->
+	<div class="left">
+		<div class="header-l">
+			<?php include(THEME_DIR_PHP.'header.php'); ?>
+		</div>
+		<div class="nav">
+			<?php include(THEME_DIR_PHP.'navigation.php'); ?>
+		</div>
+		<div class="footer">
+			<?php include(THEME_DIR_PHP.'footer.php');  ?>
+		</div>
+	</div>
 
-<!-- Footer -->
-<footer>
-	<?php include(THEME_DIR_PHP.'footer.php');  ?>
-</footer>
-	<!-- Load plugins with the hook siteBodyEnd -->
-	<?php Theme::plugins('siteBodyEnd'); ?>	
+	<!-- Content -->
+	<div class="main">
+		<?php
+			// $WHERE_AM_I variable detects where the user is browsing
+			// "page" = looking at a particular page
+			// "home" = looking at the home page
+			
+			if ($url->slug() == 'questionmark') {
+				include(THEME_DIR_PHP.'questionmark.php');
+			}
+			elseif ($WHERE_AM_I == 'page') {
+				include(THEME_DIR_PHP.'page.php');
+			} elseif($WHERE_AM_I == 'home') {
+				include(THEME_DIR_PHP.'home.php');
+			} elseif($WHERE_AM_I == 'category' ||
+					 $WHERE_AM_I == 'tag') {
+				include(THEME_DIR_PHP.'list.php');
+			}
+		?>
+	</div>
+</div>
+
+<!-- Load plugins with the hook siteBodyEnd -->
+<?php Theme::plugins('siteBodyEnd'); ?>	
 </body>
 </html>
