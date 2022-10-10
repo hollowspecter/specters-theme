@@ -14,5 +14,5 @@
 </a>
 
 <!-- Licenses -->
-<p>Copyright &copy; 2021 by <a href=<?php echo $base; ?>>Finley Baguio</a>.<br>
+<p>Copyright &copy; 2022 by <a href=<?php echo $base; ?>>Finley Baguio</a>.<br>
 Text and Media under <a href="https://creativecommons.org/licenses/by/4.0/" targte="_blank">CC BY 4.0</a></p>
