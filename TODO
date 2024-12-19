@@ -12,17 +12,19 @@ Done:
 Next up:
   ✔ update theme on server @done(21-01-09 13:26)
   ✔ transfer content @done(21-01-09 13:26)
-  [ ] make it accessible from phone (maybe like have a button at the top of the page for the menu and then go to the "navi" page that only shows the navigation)
-  [ ] make a 404 page
-  [ ] setup rss feed
-
-Styling:
-  [ ] style the list-log and list-log-description
-  [ ] style the navigation bar buttons
-  [ ] what to do with the caption picture?
-  [ ] mark in the navigation in which navigation point we currently are
-
+  ✔ make it accessible from phone (maybe like have a button at the top of the page for the menu and then go to the "navi" page that only shows the navigation) @done(21-01-09 21:49)
+  ✔ make a 404 page @done(21-01-09 21:50)
+  ✔ setup rss feed @done(21-02-08 12:48)
+  ✔ redirect the url to the new homepage! @done(21-02-08 12:48)
 
 Content:
-  [ ] add itch page to about + icons bot?
-  [ ] add rss feed to about + icons bot
+  ✔ add itch page to about + icons bot? @done(21-01-09 21:50)
+  ✔ add rss feed to about + icons bot @done(21-02-09 22:09)
+  ✔ add a photo entry @done(21-02-08 12:48)
+  ✔ add the remaining projects @done(21-02-08 12:48)
+
+Styling (nice to have):
+  [ ] style the list-log and list-log-description
+  [ ] style the navigation bar buttons
+  ✔ what to do with the caption picture? @done(21-02-09 22:09)
+  [ ] mark in the navigation in which navigation point we currently are
